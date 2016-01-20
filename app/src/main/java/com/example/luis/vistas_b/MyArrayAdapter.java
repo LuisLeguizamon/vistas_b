@@ -44,39 +44,32 @@ public class MyArrayAdapter extends ArrayAdapter<String> {
         {
             imagen.setImageResource(R.mipmap.agro);
         }
-        else
-        if (s.startsWith("ARTES"))
+        else if (s.startsWith("ARTES"))
         {
             imagen.setImageResource(R.mipmap.artes);
         }
 
-        else
-        if (s.startsWith("ELECTRICIDAD"))
+        else if (s.startsWith("ELECTRICIDAD"))
         {
             imagen.setImageResource(R.mipmap.electricidad);
         }
-        else
-        if (s.startsWith("FINANZAS"))
+        else if (s.startsWith("FINANZAS"))
         {
             imagen.setImageResource(R.mipmap.finanzas);
         }
-        else
-        if(s.startsWith("GASTRONOMÍA"))
+        else if(s.startsWith("GASTRONOMÍA"))
         {
             imagen.setImageResource(R.mipmap.gastronomia);
         }
-        else
-        if(s.startsWith("TECNOLOGÍA"))
+        else if(s.startsWith("TECNOLOGÍA"))
         {
             imagen.setImageResource(R.mipmap.tecnologia);
         }
-        else
-        if(s.startsWith("IDIOMAS"))
+        else if(s.startsWith("IDIOMAS"))
         {
             imagen.setImageResource(R.mipmap.idiomas);
         }
-        else
-        if(s.startsWith("SALUD"))
+        else if(s.startsWith("SALUD"))
         {
             imagen.setImageResource(R.mipmap.salud);
         }
